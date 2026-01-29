@@ -69,8 +69,5 @@ fn change(a: &mut String){
 }
 
 fn eat(a: String) -> bool{
-    if a.starts_with("b") && a.contains("a") {
-        return true;
-    }
-    false
+    return a.starts_with("b") && a.contains("a");
 }
